@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Borja Bas Ventín">
+    <meta name="copyright" content="copyright of the author">   
+    <link rel="stylesheet" href="style.css">
+    <script async type="text/javascript" src="main.js" ></script>
+    <title>BASIX: app home  </title>
+</head>
+<header id="app-header">
+    <div class="left top-logo"><a href="index.html">basix</a></div>
+    <div class="right top-right">
+        <a href="subscribe.html"><button class="btn btn-header">Suscribirse</button></a>
+        <a href="login.html"><button class="btn btn-login">Iniciar sessión</button></a>
+    </div>
+    <div class="icon-menu"><a href="#">&#9776;</a></div>
+    <div class="new-top-menu">
+        <ul class="responsive-main-list">
+            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="subscribe.html">Subscribirse</a></li>
+        </ul>
+    </div></header>    
+<script type="text/javascript">
+   // window.addEventListener('DOMContentLoaded',showTopMenu,true);
+</script>
+<body>
+    <div id="main-slider-container">
+        <div class="main-slider-item slider-yellow">
+            <div class="slider-text">
+                <h1><span class="title-slide">Lorem ipsum dolor</span></h1>
+                <div class="container-text-slide">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit eligendi beat
+                    reiciendis earum maxime nesciunt ipsa <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit 
+                    eligendi beat reiciendis earum<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+        </div>
+        <div class="main-slider-item slider-blue">
+            <div class="slider-text">
+                <h1><span class="title-slide">Lorem ipsum dolor</span></h1>
+                <div class="container-text-slide">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit eligendi beat
+                    reiciendis earum maxime nesciunt ipsa <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit 
+                    eligendi beat reiciendis earum<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+        </div>
+        <div class="main-slider-item slider-green">
+            <div class="slider-text">
+                <h1><span class="title-slide">Lorem ipsum dolor</span></h1>
+                <div class="container-text-slide">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit eligendi beat
+                    reiciendis earum maxime nesciunt ipsa <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit 
+                    eligendi beat reiciendis earum<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+        </div>
+        <div class="main-slider-item slider-grey">
+            <div class="slider-text">
+                <h1><span class="title-slide">Lorem ipsum dolor</span></h1>
+                <div class="container-text-slide">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit eligendi beat
+                    reiciendis earum maxime nesciunt ipsa <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit 
+                    eligendi beat reiciendis earum<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="main-controls">
+        <span class="prev" id="prev">&lt;</span>
+        <span class="next" id="next">&gt;</span>
+    </div>    
+</div>
+<script type="text/javascript">
+    window.addEventListener('DOMContentLoaded',mainSlider,true);
+</script>
+
+<div class="title-block">
+    Películas
+</div>
+<!--------------------------------------------------- VARIOUS SLIDERS ------------------------------------------------------------->    
+    <div class="container-various">
+        <!-- Left Control -->
+        <div class="controls left-control">
+            &lt;
+        </div>
+        <!-- slider`s images -->
+<!--    SLIDER ONE   -->        
+        <div class="slider" id="slider">
+            <!--<div class="img"><img src=""></div>-->   
+            <script type="text/javascript">
+            const images = ['1','2','3','4','5','6','7','8','9','10','11','12',];
+            for(let i=0; i<images.length;i++){
+                document.write(`<div class="img"><a href="#modal" title="Ventana con información" class="thumbs">${images[i]}</a></div>`);       
+            }
+            </script>              
+        </div>
+        <!-- Right Control -->
+            <div class="controls right-control">
+                &gt;
+            </div> 
+    </div>
+<!-- JAVASCRIPT OT THE SCRIPT NUMBER 1 -->
+<script type="text/javascript">
+    window.addEventListener('DOMContentLoaded',sliderNumber01,true);
+</script>
+<div class="app-message">
+    <h1 class="center">Advertencia resoluciones móviles</h1>
+    <p>"Para <b>usuarios</b> que ejecuten dispositivos móviles que operen con resoluciones de pantalla 
+    inferiores a <b>880px</b> es necesario que lleven a cabo la descarga de la <b>APP móvil</b> de la aplicación"</p>
+</div>
+<div class="title-block">
+    Música
+</div>
+<!-- dos -->
+<div class="container-various">
+    <!-- Left Control -->
+    <div class="controls2 left-control2">
+        &lt;
+    </div>
+    <!-- slider`s images -->
+<!--    SLIDER two   -->        
+    <div class="slider2" id="slider2">
+        <!--<div class="img"><img src=""></div>-->   
+        <script type="text/javascript">
+        const images2 = ['1','2','3','4','5','6','7','8','9','10','11','12',];
+        for(let i=0; i<images2.length;i++){
+            document.write(`<div class="img2"><a href="#modal" title="Ventana con información" class="thumbs">${images2[i]}</a></div>`);          
+        }
+        </script>               
+    </div>
+    <!-- Right Control -->
+        <div class="controls2 right-control2">
+            &gt;
+        </div> 
+</div>
+<div class="title-block">
+    Videogames
+</div>
+<!-- three -->
+<div class="container-various">
+    <!-- Left Control -->
+    <div class="controls3 left-control3">
+        &lt;
+    </div>
+    <!-- slider`s images -->
+<!--    SLIDER two   -->        
+    <div class="slider3" id="slider3">
+        <!--<div class="img"><img src=""></div>-->   
+        <script type="text/javascript">
+        const images3 = ['1','2','3','4','5','6','7','8','9','10','11','12'];
+        for(let i=0; i<images3.length;i++){
+            document.write(`<div class="img3"><a href="#modal" title="Ventana con información" class="thumbs">${images2[i]}</a></div>`);          
+        }
+        </script>               
+    </div>
+    <!-- Right Control -->
+        <div class="controls3 right-control3">
+            &gt;
+        </div> 
+</div>
+<script type="text/javascript">
+    window.addEventListener('DOMContentLoaded',sliderNumber02,true);
+    window.addEventListener('DOMContentLoaded',sliderNumber03,true);
+</script>
+            <div id="modal" class="modal-container">
+                <div class="modal-content">
+                    <div  class="modal-close"><a href="#">Cerrar</a></div>
+                    <div class="modal-data"></div>
+                        <h1>Lorem Ipsum</h1>   
+                        <br><br>  
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed iste dolorum quia cupiditate inventore! At iste ratione
+                        similique aspernatur doloribus iusto nihil officiis molestiae minus?
+                        Perferendis cumque sapiente ipsam. Cupiditate.<br><br>   
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed iste dolorum quia cupiditate inventore! At iste ratione
+                        similique aspernatur doloribus iusto nihil officiis molestiae minus?
+                        Perferendis cumque sapiente ipsam. Cupiditate.<br><br>                           
+                </div>  
+            </div>
+<footer>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iste dolorum quia cupiditate inventore! At iste ratione similique aspernatur doloribus iusto nihil officiis molestiae minus? Perferendis cumque sapiente ipsam. Cupiditate.            
+        <div class="space-block"></div>
+            <a id="link-to-top" href="#main-slider-container">&#8593;</a></p>
+        </div>
+</footer>
+</body>
+</html>

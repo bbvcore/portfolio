@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Borja Bas Ventín">
+    <meta name="copyright" content="copyright of the author">   
+    <title>BASIX : Subscribe</title>
+    <link rel="stylesheet" href="style.css">
+    <script async type="text/javascript" src="main.js" ></script>
+</head>
+<body>
+<header id="subscribe-header">
+    <div class="top-logo"><a href="index.html">basix</a></div>
+    <div class="right top-right">
+        <a href="subscribe.html"><button class="btn btn-header">Suscribirse</button></a>
+        <a href="login.html"><button class="btn btn-login">Iniciar sessión</button></a>
+    </div>
+    <div class="icon-menu"><a href="#" id="show-top-menu">&#9776;</a></div>
+    <div class="new-top-menu">
+        <ul class="responsive-main-list">
+            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="subscribe.html">Subscribirse</a></li>
+        </ul>
+    </div>
+</header> 
+<div id="welcome-reg">
+    <div class="form-container">
+        <h2 class="title-form-container">Escriba su correo electrónico</h2>
+        <p class="form-container-text">
+            Utilizará esta dirección de correo electrónico
+            para acceder a su cuenta de la plataforma y poder
+            utilizar los servicios contratados.
+        </p>
+        <form id="subscribe-form">
+            <input type="email" id="email-reg" placeholder="Introduzca su email" required>
+            <input type="password" id="password-reg" placeholder="Introduzca su password" required>
+            <input id="check" type="checkbox" required><a id="check-link" title="Leer condiciones" href="#modal">Aceptar condiciones</a>
+            <p class="legal-conditions">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora quas quia, molestias blanditiis ratione velit. A, corporis architecto? Expedita, ipsam. Tenetur ea facilis neque maxime iusto amet nesciunt repellendus!
+            </p>
+            <input type="submit"  class="subscribe-btn" id="submit-reg" value="Suscribirse" > 
+        </form>
+    </div>
+</div>
+<footer>
+    <p class="logo-down">BASIX</p>
+</footer>
+<div id="modal" class="modal-container">
+    <div class="modal-content">
+        <div  class="modal-close"><a href="#">Cerrar</a></div>
+        <div class="modal-data"></div>
+            <h1>Condiciones legales</h1>   
+            <br><br>  
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed iste dolorum quia cupiditate inventore! At iste ratione
+            similique aspernatur doloribus iusto nihil officiis molestiae minus?
+            Perferendis cumque sapiente ipsam. Cupiditate.<br><br>   
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed iste dolorum quia cupiditate inventore! At iste ratione
+            similique aspernatur doloribus iusto nihil officiis molestiae minus?
+            Perferendis cumque sapiente ipsam. Cupiditate.<br><br>                           
+    </div>  
+</div>
+</body>
+</html>
