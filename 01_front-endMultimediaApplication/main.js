@@ -7,7 +7,7 @@ var upper = document.getElementById("link-to-top");
      	 		event.preventDefault(); 
 				  let eventInLink = event.target.getAttribute('href');
 				  console.log(eventInLink);
-				document.querySelector(eventInLink).scrollIntoView({
+				  document.querySelector(eventInLink).scrollIntoView({
 					behavior: "smooth",
 				});
         });
